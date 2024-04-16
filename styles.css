@@ -2,6 +2,29 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
+.typing {
+    width: 0;  /* Start with no visible content */
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid transparent; /* Start with a transparent border */
+    font-family: "Andale Mono";
+    font-size: 50px;
+  text-align: center;
+  padding: 5px;
+
+    animation: typing 2s steps(30) forwards, blink-cursor 2s step-end forwards;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }  /* This will cover the full content width */
+}
+
+@keyframes blink-cursor {
+    50% { border-right-color: black; }
+}
+
+
 * {
   margin: 0;
   padding: 0;
@@ -391,7 +414,7 @@ article .icon {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 200vh;
+  height: 300vh;
 }
 
 .contact-info-upper-container {
