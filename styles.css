@@ -187,17 +187,17 @@ section {
 
 .section__text__p1 {
   text-align: center;
-  font-size: 60px;
+  font-size: 35px;
 }
 
 .section__text__p2 {
-  font-size: 40px;
+  font-size: 20px;
   margin-bottom: 1rem;
   padding: 10px;
 }
 
 .title {
-  font-size: 75px;
+  font-size: 50px;
   text-align: center;
 }
 
