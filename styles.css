@@ -8,7 +8,8 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Andale Mono";
+  background-color: white;
 }
 
 html {
@@ -390,7 +391,7 @@ article .icon {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 70vh;
+  height: 100vh;
 }
 
 .contact-info-upper-container {
