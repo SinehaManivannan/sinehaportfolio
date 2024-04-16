@@ -328,9 +328,23 @@ section {
   bottom: 2.5rem;
 }
 
-.details-container {
+.details-container-1 {
+  align-content: space-evenly;
   padding: 3rem;
-  flex: 1;
+  max-width: 30%;
+  flex: 2;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
+}
+
+.details-container {
+  align-content: space-evenly;
+  padding: 3rem;
+  max-width: 30%;
+  flex: 2;
   background: white;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
@@ -366,6 +380,7 @@ section {
 
 .experience-details-container {
   display: flex;
+  align-content: space-evenly;
   justify-content: center;
   flex-direction: column;
 }
