@@ -179,7 +179,7 @@ a:hover {
 
 section {
   padding-top: 4vh;
-  height: 96vh;
+  height: auto;
   margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;
@@ -353,6 +353,7 @@ section {
 
 #experience {
   position: relative;
+  margin-bottom: 4rem;
 }
 
 .experience-sub-title {
@@ -392,7 +393,8 @@ article .icon {
 
 #projects {
   position: relative;
-  padding: 10px;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .color-container {
