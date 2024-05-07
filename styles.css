@@ -33,6 +33,7 @@
 body {
   font-family: "Andale Mono";
   background-color: white;
+
 }
 
 html {
@@ -250,6 +251,7 @@ section {
 
 .btn-container {
   display: flex;
+    flex-wrap: wrap;
   justify-content: center;
   gap: 1rem;
 }
@@ -303,9 +305,13 @@ section {
 }
 
 .about-containers {
+  display: flex;
+    flex-wrap: wrap;
   gap: 2rem;
   margin-bottom: 5rem;
   margin-top: 6rem;
+  justify-content: center; /* Horizontally centers items */
+  align-items: center; /* Vertically centers items */
 }
 
 .about-details-container {
@@ -483,3 +489,4 @@ footer {
 footer p {
   text-align: center;
 }
+
